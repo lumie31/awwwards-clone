@@ -134,21 +134,10 @@
 *
 */
 
-body {
-  /* background: #ff7e5f; */
-  /* background: -webkit-linear-gradient(to right, #ff7e5f, #feb47b); */
-  /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
-  /* min-height: 100vh; */
-}
-
 .rounded-lg {
   border-radius: 1rem;
 }
 
 .text-gray {
   color: #aaa;
-}
-
-div.h4 {
-  /* line-height: 1rem; */
 }
