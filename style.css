@@ -66,13 +66,6 @@ a {
   border-radius: 100%;
   background: #000;
 }
-/*
-*
-* ==========================================
-* CUSTOM UTIL CLASSES
-* ==========================================
-*
-*/
 
 .progress {
   width: 90px;
@@ -143,18 +136,25 @@ a {
   left: 0;
 }
 
-/*
-*
-* ==========================================
-* FOR DEMO PURPOSE
-* ==========================================
-*
-*/
-
 .rounded-lg {
   border-radius: 1rem;
 }
 
 .text-gray {
   color: #aaa;
+}
+
+@media screen and (max-width: 900px) {
+  .hero > div {
+    display: none !important;
+  }
+  header nav p {
+    display: none !important;
+  }
+  header .right-link {
+    display: none;
+  }
+  section .excel {
+    display: none;
+  }
 }
