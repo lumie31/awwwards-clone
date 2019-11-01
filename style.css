@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-center {
+  margin-left: 150px;
+}
+.hero {
+  background-image: url(/Assets/Knives-Out-poster.jpg);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+.bttn {
+  color: #000;
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 3px 10px;
+  background: none;
+}
+.hero-lowest button {
+  border-radius: 50px;
+  padding: 5px 25px;
+  border: 1px solid white;
+  background: none;
+  color: white;
+}
+.hero-lowest .green {
+  background: #47bdae;
+  color: white;
+  border: none;
+}
+.cir {
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 100%;
+  background: #000;
+  /* height: 500px; */
+}
+.circ {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 100%;
+  background: #000;
+}
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.progress {
+  width: 90px;
+  height: 90px;
+  background: none;
+  position: relative;
+}
+
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.progress .progress-left {
+  left: 0;
+}
+
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 6px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+
+.progress .progress-right {
+  right: 0;
+}
+
+.progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+
+.progress .progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*
+*/
+
+body {
+  /* background: #ff7e5f; */
+  /* background: -webkit-linear-gradient(to right, #ff7e5f, #feb47b); */
+  /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
+  /* min-height: 100vh; */
+}
+
+.rounded-lg {
+  border-radius: 1rem;
+}
+
+.text-gray {
+  color: #aaa;
+}
+
+div.h4 {
+  /* line-height: 1rem; */
+}
