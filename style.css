@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  font-family: "Roboto", sans-serif;
+}
 .logo-center {
   margin-left: 150px;
 }
@@ -21,6 +23,12 @@
   border-radius: 50px;
   padding: 3px 10px;
   background: none;
+}
+.right-link button {
+  /* height: 50px; */
+}
+a {
+  color: #000;
 }
 .hero-lowest button {
   border-radius: 50px;
